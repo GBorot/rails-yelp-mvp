@@ -30,10 +30,15 @@ a:hover {
 }
 
 
-.button-dark::hover {
-  color: white !important;
+.button-dark:hover {
   background-color: #313131;
+  color: $white;
+
+  & .btn:hover {
+    color: white !important;
+  }
 }
+
 
 .list-group-item-action {
   border-radius: 5px !important;
