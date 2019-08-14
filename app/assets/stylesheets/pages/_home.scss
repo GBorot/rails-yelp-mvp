@@ -1,0 +1,41 @@
+// Specific CSS for your home-page
+a {
+  text-decoration: none;
+  color: #313131;
+  border: solid 2px #313131;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #313131;
+}
+
+// table tr {
+//   line-height: 100px;
+// }
+
+
+
+.button-dark {
+  text-decoration: none;
+  color: #313131;
+  border: solid 2px #313131;
+  border-radius: 5px;
+  padding: 10px;
+  width: 25%;
+  text-align: center;
+}
+
+
+.button-dark::hover {
+  color: white !important;
+  background-color: #313131;
+}
+
+.list-group-item-action {
+  border-radius: 5px !important;
+  background-color: rgb(240, 240, 240) !important;
+}
